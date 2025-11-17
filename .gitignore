@@ -28,9 +28,6 @@ dist
 # Local python packages
 .python_packages/
 
-# Ignore GitHub Actions workflows
-.github/
-
 # Python Environments
 .env
 .venv

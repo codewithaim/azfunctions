@@ -1,5 +1,9 @@
 name: Azure Functions Python CI/CD (OIDC)
 
+permissions:
+  id-token: write        # necessary for OIDC login
+  contents: read
+  
 on:
   push:
     branches:
